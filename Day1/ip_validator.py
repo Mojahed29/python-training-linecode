@@ -11,22 +11,22 @@ def ipv4_cheacker(ip_input):
     octets = ip_input.split('.')
 
     if len(octets) != 4:
-        return False
+        print("Error: There are not 4 octets.")
+        return 
 
     for val in octets:
         if not val.isdigit(): 
-            return False
+            print(f"Error: '{val}' is not a valid digit.")
+            return
             
         number = int(val)
 
         if number > 255 or number < 0:
-            return False
+            print(f"Error: {number} is out of range (0-255).")
+            return
     
-    return True
+    print("Valid IPv4 address!")
 
 ip_address = input("Enter the IPv4 address: ")
 
-if ipv4_cheacker(ip_address):
-    print("Valid IPv4 address")
-else:
-    print("Invalid IPv4 address")
+ipv4_cheacker(ip_address)

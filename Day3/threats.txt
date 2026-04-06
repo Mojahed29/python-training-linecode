@@ -1,0 +1,5 @@
+THREAT REPORT
+================================================
+Suspicious IPs (3+ log appearances):
+
+IP: 203.0.113.42 | Occurrences: 3

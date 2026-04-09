@@ -58,7 +58,7 @@ Week 2: Explored advanced networking and security operations using libraries lik
 ### Day 9: Final Scanner
 - `final_scanner.py`: Comprehensive network scanning tool
 
-### Day 10: Security Auditing
+### Day 10: Final Project
 - `audit.py`: System and network auditing scripts
 
 

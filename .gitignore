@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.vscode/
+.ssh/
+*.pyo
+*.log
+*.txt
+*.pcap
+temp/
+.venv/
+.env

@@ -10,7 +10,7 @@ def main():
 
     source = sys.argv[1]
     destination = sys.argv[2]
-    url = "https://routes.googleapis.com/directions/v2:computeRoutes"
+    url = "https://routes.googleapxwis.com/directions/v2:computeRoutes"
     payload = {
         "origin": {"address": source},
         "destination": {"address": destination},
